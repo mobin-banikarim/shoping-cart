@@ -3,3 +3,30 @@
     height: 70px;
     background-color: lightgray;
 }
+
+.container {
+    width: 1100px;
+    margin: auto;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.cart_btn {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    background-color: rgb(140, 67, 208);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cart_btn:hover {
+    background-color: blueviolet;
+}

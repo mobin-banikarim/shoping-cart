@@ -46,8 +46,6 @@ const CartModal = () => {
     </div>
   ))
 
-  if (totalQuantitySelector === 0) return null;
-
   return ReactDOM.createPortal(
     <div className={styles.modal_container}>
       
@@ -56,7 +54,7 @@ const CartModal = () => {
         <button className={styles.close_btn} onClick={closeCartHandler}>X</button>
       </div>
 
-      { viewCartItems }
+      { totalQuantitySelector === 0 ? <h3>The shopping cart is empty.</h3> : viewCartItems }
 
     </div>,
     document.getElementById("modal-root")
