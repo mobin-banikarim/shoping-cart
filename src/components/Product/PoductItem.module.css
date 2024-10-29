@@ -1,0 +1,35 @@
+.PoductItem {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 32%;
+    margin: 5px 5px 5px 9px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(0, 147, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(0, 121, 0);
+}
+
+.img {
+    width: 100%;
+}
+
+.title {
+    margin: 20px 0 10px;
+}
+
+.price {
+    margin: 0 0 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
